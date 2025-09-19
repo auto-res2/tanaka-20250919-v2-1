@@ -3,5 +3,19 @@
   "queries": [
     "novel loss function LLM",
     "adaptive loss transformer tuning"
+  ],
+  "research_study_list": [
+    {
+      "title": "Discovering Preference Optimization Algorithms with and for Large Language Models"
+    },
+    {
+      "title": "Language Generation with Strictly Proper Scoring Rules"
+    },
+    {
+      "title": "MELTR: Meta Loss Transformer for Learning To Fine-Tune Video Foundation Models"
+    },
+    {
+      "title": "You Only Train Once: Loss-Conditional Training of Deep Networks"
+    }
   ]
 }
