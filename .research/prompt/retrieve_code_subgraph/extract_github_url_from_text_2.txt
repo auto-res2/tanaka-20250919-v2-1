@@ -1,0 +1,17 @@
+
+Input:
+# Task
+You carefully read the contents of the “Paper Outline” and select one GitHub link from the “GitHub URLs List” that you think is most relevant to the contents.
+# Constraints
+- Output the index number corresponding to the selected GitHub URL.
+- Be sure to select only one GitHub URL.
+- If there is no related GitHub link, output None.
+# Paper Outline
+MELTR is a Transformer-based neural network module that learns to generate a unified auxiliary loss function (Laux) by combining input loss values from a primary task and multiple auxiliary tasks. Scalar loss values are converted into d-dimensional scale embeddings (SE) via an MLP and task embeddings (TE) via a learnable embedding layer, which are then summed to form input tokens for a Multi-head Self-attention layer. The output is pooled to a scalar loss value. The framework formulates auxiliary learning as a bi-level optimization problem, where MELTR's meta-parameters (φ) are optimized to minimize the primary task loss (Lpri) while the backbone model's parameters (w) minimize the unified auxiliary loss (Laux). An efficient training scheme based on Approximate Implicit Differentiation (AID-FP-Lite) is employed, which approximates the inverse Hessian matrix as the identity matrix to reduce computational overhead. A regularization term (Lreg) is also introduced to the primary loss to mitigate meta-overfitting by encouraging the learned loss to stay within a reasonable range.
+
+# GitHub URLs List
+['https://github.com/microsoft/UniVL']
+Output:
+{
+    "index": null
+}
