@@ -21,7 +21,8 @@
           "Robert Tjarko Lange"
         ],
         "published_date": "2024-06-12T16:58:41Z",
-        "pdf_url": "https://arxiv.org/pdf/2406.08414v3.pdf"
+        "pdf_url": "https://arxiv.org/pdf/2406.08414v3.pdf",
+        "github_url": "https://github.com/luchris429/DiscoPOP"
       },
       "llm_extracted_info": {
         "main_contributions": "The paper introduces an LLM-driven objective discovery pipeline to automatically generate novel state-of-the-art offline preference optimization algorithms, overcoming limitations of human-designed loss functions. The main problem addressed is the reliance on manually crafted convex loss functions for LLM preference optimization, which constrains the exploration of the loss function search space. The key finding is the discovery of Discovered Preference Optimization (DiscoPOP), a novel algorithm that adaptively blends logistic and exponential losses, demonstrating state-of-the-art performance and successful transferability to held-out tasks.",
